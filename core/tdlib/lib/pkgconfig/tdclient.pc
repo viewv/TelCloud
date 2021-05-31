@@ -1,0 +1,9 @@
+prefix=/Users/viewv/Develop/tdlib
+
+Name: tdclient
+Description: Telegram Library - C++ Interface
+Version: 1.7.4
+
+CFlags: -I"${prefix}/include"
+Libs: -L"${prefix}/lib" -ltdclient
+Requires.private: tdapi tdcore

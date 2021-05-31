@@ -1,0 +1,8 @@
+targets:
+  $default:
+    builders:
+      reflectable:
+        generate_for:
+          - 'tdlib_ex.dart'
+        options:
+          formatted: true
